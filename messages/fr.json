@@ -1,0 +1,20 @@
+{
+  "IndexPage": {
+    "title": "next-intl exemple",
+    "description": "Bienvenue à next-intl exemple"
+  },
+  "NotFoundPage": {
+    "title": "Page non trouvée",
+    "description": "Oops! La page recherchée n'a pas été trouvée. Veuillez cliquer sur le bouton ci-dessous pour revenir à la page d'accueil."
+  },
+  "Navigation": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "experience": "Expérience",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "copyright": "© 2024 ARABA  Portfolio"
+  }
+}
