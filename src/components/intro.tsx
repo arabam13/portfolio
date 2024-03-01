@@ -3,6 +3,7 @@
 import { useActiveSectionContext } from '@/context/active-section-context';
 import { useSectionInView } from '@/lib/hooks';
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
@@ -12,6 +13,7 @@ import { HiDownload } from 'react-icons/hi';
 const Intro = () => {
     const { ref } = useSectionInView('home', 0.5);
     const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+    const t = useTranslations('Intro');
 
     return (
     <section
@@ -47,10 +49,7 @@ const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         >
-        <span className="font-bold">Hello, I&apos;m Mohammed.</span> I&apos;m a{' '}
-        <span className="font-bold">full-stack developer.</span> I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{' '}
-        <span className="underline">React (Next.js)</span>
+            {t('paragraph')}
         </motion.h1>
 
         <motion.div
@@ -63,22 +62,22 @@ const Intro = () => {
         >
         <Link
             href="#contact"
-            className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+            className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-950 active:scale-105 transition"
             onClick={() => {
             setActiveSection('contact');
             setTimeOfLastClick(Date.now());
             }}
         >
-            Contact me here{' '}
+            {t('contact')}{' '}
             <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
         <a
-            className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+            className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
             href="/CV.pdf"
-            download
+            target="_blank"
         >
-            Download CV{' '}
+            {t('resume')}{' '}
             <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 

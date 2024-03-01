@@ -18,7 +18,7 @@ const LocalSwitcher= () => {
     };
 
     return (
-      <label className='fixed top-5 right-2 border-2 rounded-md p-2 sm:top-[6rem] lg:top-7'>
+      <label className='fixed top-5 right-2 sm:right-5 border-2 rounded-md p-2 sm:top-[6rem] lg:top-7'>
         <p className='sr-only'>change language</p>
         <select
         defaultValue={localActive}
