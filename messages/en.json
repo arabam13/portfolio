@@ -1,20 +1,13 @@
 {
-  "IndexPage": {
-    "title": "next-intl example",
-    "description": "Welcome to the Next.js Internationalization (i18n) example! This demo showcases the power of the App Router and how to manage multilingual content seamlessly using next-intl."
-  },
-  "NotFoundPage": {
-    "title": "Page Not Found",
-    "description": "Oops! It seems like you've stumbled upon a page that doesn't exist. Please click on the button below to return to the home page."
-  },
   "Navigation": {
     "home": "Home",
+    "about": "About",
     "projects": "Projects",
     "skills": "Skills",
     "experience": "Experience",
     "contact": "Contact"
   },
   "Footer": {
-    "copyright": "© 2024 ARABA  Portfolio"
+    "copyright": "© 2024 ARABA Portfolio"
   }
 }

@@ -1,12 +1,13 @@
-import { useTranslations } from 'next-intl';
+import About from "@/components/about";
+import Intro from "@/components/intro";
+import SectionDivider from "@/components/section-divider";
 
 export default function Home() {
-  const t = useTranslations('IndexPage');
-
   return (
-    <div>
-      <h1 className='text-4xl mb-4 font-semibold'>{t('title')}</h1>
-      <p>{t('description')}</p>
-    </div> 
+    <main className="flex flex-col items-center px-4">
+      <Intro />
+      <SectionDivider />
+      <About />
+    </main>
   );
 }

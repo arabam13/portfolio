@@ -18,17 +18,17 @@ const LocalSwitcher= () => {
     };
 
     return (
-      <label className='border-2 rounded-md p-2'>
-          <p className='sr-only'>change language</p>
-          <select
-          defaultValue={localActive}
-          className='bg-transparent py-2 outline-none'
-          onChange={onSelectChange}
-          disabled={isPending}
-          >
-            <option value='en'>🏴󠁧󠁢󠁥󠁮󠁧󠁿 EN</option>
-            <option value='fr'>🇫🇷 FR</option>
-      </select>
+      <label className='fixed top-5 right-2 border-2 rounded-md p-2 sm:top-[6rem] lg:top-7'>
+        <p className='sr-only'>change language</p>
+        <select
+        defaultValue={localActive}
+        className='bg-transparent py-1 outline-none text-[0.9rem]'
+        onChange={onSelectChange}
+        disabled={isPending}
+        >
+          <option value='en'>🏴󠁧󠁢󠁥󠁮󠁧󠁿 EN</option>
+          <option value='fr'>🇫🇷 FR</option>
+        </select>
       </label>  
     );
 }

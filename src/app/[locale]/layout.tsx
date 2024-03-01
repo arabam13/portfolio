@@ -1,14 +1,18 @@
 import Header from '@/components/Header';
+import ThemeSwitch from '@/components/theme-switch';
+import ActiveSectionContextProvider from '@/context/active-section-context';
+import ThemeContextProvider from '@/context/theme-context';
 import type { Metadata } from 'next';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { Inter } from 'next/font/google';
+import { Toaster } from 'react-hot-toast';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-    title: "ARABA Portfolio",
-    description: "Mohammed ARABA's portfolio",
+    title: "Mohammed Portfolio",
+    description: "Mohammed ARABA is a full-stack developer specialized in ReactJS (NextJS) | Angular | NodeJS (ExpressJS)",
   };
 
 interface RootLayoutProps {
@@ -24,16 +28,23 @@ export default function RootLayout({
   const messages = useMessages();
   return (
     <html lang={locale}>
-      <body className={inter.className}>
-      <NextIntlClientProvider
-        locale={locale}
-        messages={messages}
+      <body
+        className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
-        <div className='flex flex-col min-h-screen max-w-4xl mx-auto'>
-          <Header />
-          <div className='flex-grow mt-20'>{children}</div>
-          {/* <Footer /> */}
-        </div>
+        <NextIntlClientProvider
+          locale={locale}
+          messages={messages}
+        >
+        <ThemeContextProvider>
+          <ActiveSectionContextProvider>
+            <Header />
+            {children}
+            {/* <Footer /> */}
+
+            <Toaster position="top-right" />
+            <ThemeSwitch />
+          </ActiveSectionContextProvider>
+        </ThemeContextProvider>
         </NextIntlClientProvider>
       </body>
     </html>
