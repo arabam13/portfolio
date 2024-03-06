@@ -32,5 +32,5 @@ const LocalSwitcher= () => {
       </label>  
     );
 }
- 
+
 export default LocalSwitcher;

@@ -1,10 +1,9 @@
-// import corpcommentImg from "@/public/corpcomment.png";
-// import rmtdevImg from "@/public/rmtdev.png";
-// import wordanalyticsImg from "@/public/wordanalytics.png";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import bookStoreImg from "/public/bookStore.jpg";
+import realEstateAgencyImg from "/public/realEstateAgency.jpg";
 
 export const links = [
   {
@@ -16,12 +15,12 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "projects",
-    hash: "#projects",
-  },
-  {
     name: "skills",
     hash: "#skills",
+  },
+  {
+    name: "projects",
+    hash: "#projects",
   },
   {
     name: "experience",
@@ -35,55 +34,57 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated Master Degree",
+    location: "Toulouse, France",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated in statistics and business intelligence at Paul SABATIER University. I found a job as an IT corresponding, and then as statistician in assurance sector.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2013 - 2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "SQL Developer",
+    location: "Marseille, France",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I'm working as a SQL developer in assurance sector. I'm in charge of the development of scripts, intended to process and analyze data.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2019 - 2024",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Marseille, France",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer looking for a job, included freelance job. My stack includes React, Next.js, TypeScript, Angular, Express (Node.JS). I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "realEstateAgency",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    // imageUrl: corpcommentImg,
-    linkUrl: "https://github.com/ByteGrad/portfolio-website?tab=readme-ov-file",
+      // "Ce site est un clone d'une agence immobilière. Il est responsive et a été développé avec React et TypeScript. Il utilise le Context API pour gérer l'état global. Les tests ont été écrits avec React Testing Library. Le site est déployé sur Vercel.",
+      "This site is a clone of a real estate agency. It is responsive and was developed with React and TypeScript. It uses the Context API to manage global state. Some unit tests were written with Vitest and React Testing Library. The site is deployed on Vercel.",
+    tags: [
+      "React",
+      "Typescript",
+      "Context API",
+      "SCSS",
+      "Vitest",
+      "React Testing Library",
+      "Vercel",
+    ],
+    imageUrl: realEstateAgencyImg,
+    linkUrl: "https://react-kasa-typescript.vercel.app/",
   },
   {
-    title: "rmtDev",
+    title: "bookStore",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    // imageUrl: rmtdevImg,
-    linkUrl: "https://github.com/ByteGrad/portfolio-website?tab=readme-ov-file",
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    // imageUrl: rmtdevImg,
-    linkUrl: "https://github.com/ByteGrad/portfolio-website?tab=readme-ov-file",
+      // "Ce site représente une librairie de livres. Il est responsive et a été développé avec React et Node.js. L'utilisateur peut s'incrire et se connecter, créer une fiche d'unlivre, la modifier et la supprimer. Il peut également attribuer une note à un livre. Le site est déployé sur Amazon Web Service.",
+      "This site represents a book store. It is responsive and was developed with React and Express (Node.JS). The user can sign up and log in, create a book card, update and delete it. He can also rate a book. The site is deployed on Amazon Web Service.",
+    tags: ["React", "Javascript", "Node.JS", "Express", "CI/CD", "AWS"],
+    imageUrl: bookStoreImg,
+    linkUrl: "https://book-store-aws.fr/",
   },
 ] as const;
 
@@ -92,15 +93,20 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Context API",
+  "Redux",
+  "Zustand",
+  "Angular",
+  "RxJS",
   "Node.js",
   "Express",
   "Git",
   "Tailwind",
   "Framer Motion",
   "Prisma",
-  "MongoDB",
+  "SQL",
+  "API REST",
   "PostgreSQL",
-  "Context API",
-  "Redux",
-  "Zustand",
+  "MongoDB",
+  "AWS",
 ] as const;
