@@ -26,7 +26,24 @@
     "titleProject2": "Entrepôt de livres",
     "descriptionProject2": "Ce site représente une librairie de livres. Il est responsive et a été développé avec React et Node.js. L'utilisateur peut s'incrire et se connecter, créer une fiche d'unlivre, la modifier et la supprimer. Il peut également attribuer une note à un livre. Le site est déployé sur Amazon Web Service."
   },
+  "Experiance": {
+    "title": "mon Expérience",
+    "titleExperiance1": "diplôme master",
+    "descriptionExperiance1": "J'ai obtenu un diplôme en statistiques et en informatique décisionnelle à l'Université Paul SABATIER. J'ai ensuite décroché mon premier emploi en tant que correspondant informatique, puis j'ai travaillé en tant que statisticien dans le secteur de l'assurance.",
+    "titleExperiance2": "développeur SQL",
+    "descriptionExperiance2": "Je travaille actuellement en tant que développeur SQL dans le secteur de l'assurance maladie. Je suis en charge du développement de scripts, destinés à traiter et analyser des données.",
+    "titleExperiance3": "développeur Full-Stack ",
+    "descriptionExperiance3": "Je suis maintenant un développeur Full-Stack à la recherche d'un emploi, y compris un emploi en freelance. Mes technologies favorites sont React, Next.js, TypeScript, Angular, Express (Node.JS). Je suis ouvert à des opportunités à temps plein."
+  },
+  "Contact": {
+    "title": "Me contacter",
+    "sentence1": "Veuillez me contacter directement par email",
+    "sentence2": "ou à travers le formulaire ci-dessous.",
+    "placeholderEmail": "Votre email",
+    "placeholderMessage": "Votre message",
+    "button": "Envoyer"
+  },
   "Footer": {
-    "copyright": "© 2024 ARABA Portfolio"
+    "paragraph1": "© 2024 Portfolio de Mohammed ARABA"
   }
 }

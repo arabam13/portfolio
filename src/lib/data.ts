@@ -3,7 +3,6 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import angularIcon from "/public/angular.png";
-import apiRestIcon from "/public/api-rest.png";
 import awsIcon from "/public/aws.jpg";
 import bookStoreImg from "/public/bookStore.jpg";
 import expressIcon from "/public/express.png";
@@ -17,12 +16,9 @@ import postgresqlIcon from "/public/postgresql.png";
 import prismaIcon from "/public/prisma.jpg";
 import reactIcon from "/public/react.png";
 import realEstateAgencyImg from "/public/realEstateAgency.jpg";
-import reduxIcon from "/public/redux.png";
-import rxjsIcon from "/public/rxjs.png";
 import sqlIcon from "/public/sql.png";
 import tailwindIcon from "/public/tailwind.png";
 import typescriptIcon from "/public/typescript.png";
-import zustandIcon from "/public/zustand.png";
 
 export const links = [
   {
@@ -53,25 +49,24 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated Master Degree",
+    titleExperiance1: "Master's degree in Computer Science",
     location: "Toulouse, France",
-    description:
-      "I graduated in statistics and business intelligence at Paul SABATIER University. I found a job as an IT corresponding, and then as statistician in assurance sector.",
+    descriptionExperiance1: "",
     icon: React.createElement(LuGraduationCap),
     date: "2013 - 2019",
   },
   {
-    title: "SQL Developer",
+    titleExperiance2: "SQL Developer",
     location: "Marseille, France",
-    description:
+    descriptionExperiance2:
       "I'm working as a SQL developer in assurance sector. I'm in charge of the development of scripts, intended to process and analyze data.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2024",
   },
   {
-    title: "Full-Stack Developer",
+    titleExperiance3: "Full-Stack Developer",
     location: "Marseille, France",
-    description:
+    descriptionExperiance3:
       "I'm now a full-stack developer looking for a job, included freelance job. My stack includes React, Next.js, TypeScript, Angular, Express (Node.JS). I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2024 - present",
@@ -109,10 +104,7 @@ export const skillsData = [
   { title: "React", icon: reactIcon },
   { title: "Next.JS", icon: nexjsIcon },
   { title: "Context API", icon: reactIcon },
-  { title: "Redux", icon: reduxIcon },
-  { title: "Zustand", icon: zustandIcon },
   { title: "Angular", icon: angularIcon },
-  { title: "RxJS", icon: rxjsIcon },
   { title: "Node.JS", icon: nodejsIcon },
   { title: "Express.JS", icon: expressIcon },
   { title: "Git", icon: gitIcon },
@@ -120,7 +112,6 @@ export const skillsData = [
   { title: "Framer Motion", icon: framerMotionIcon },
   { title: "Prisma", icon: prismaIcon },
   { title: "SQL", icon: sqlIcon },
-  { title: "API REST", icon: apiRestIcon },
   { title: "PostgreSQL", icon: postgresqlIcon },
   { title: "MongoDB", icon: mongodbIcon },
   { title: "AWS", icon: awsIcon },

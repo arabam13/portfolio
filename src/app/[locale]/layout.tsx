@@ -12,7 +12,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-    title: "Mohammed Portfolio",
+    title: "Mohammed ARABA",
     description: "Mohammed ARABA is a full-stack developer specialized in ReactJS (NextJS) | Angular | NodeJS (ExpressJS)",
   };
 

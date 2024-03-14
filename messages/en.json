@@ -14,7 +14,7 @@
   },
   "About": {
     "title": "About Me",
-    "paragraph": "After graduating with a degree in Statistic and Business Intelligence, and working in the data analysis field, I decided to pursue my passion for IT programming. I've enrolled in a WEB development program and learned Full-Stack WEB development. My favorite part of programming is the problem-solving aspect. I love the feeling of finally figuring out a solution to a problem. I am currently looking for a full-time position as a software developer."
+    "paragraph": "After graduating with a degree in Statistic and Business Intelligence, and working in the data analysis field, I decided to pursue my passion for IT programming. I've enrolled in a WEB development program at Openclassrooms Institute, and learned a lot about Full-Stack WEB development. My favorite part of programming is the problem-solving aspect. I love the feeling of finally figuring out a solution to a problem. I am currently looking for a full-time position as a software developer."
   },
   "Skills": {
     "title": "My Skills"
@@ -26,7 +26,24 @@
     "titleProject2": "Book Store",
     "descriptionProject2": "This site represents a book store. It is responsive and was developed with React and Express (Node.JS). The user can sign up and log in, create a book card, update and delete it. He can also rate a book. The site is deployed on Amazon Web Service."
   },
+  "Experiance": {
+    "title": "My Experience",
+    "titleExperiance1": "Graduated Master Degree",
+    "descriptionExperiance1": "I graduated in statistics and business intelligence at Paul SABATIER University. I found a job as an IT corresponding, and then as statistician in assurance sector.",
+    "titleExperiance2": "SQL Developer",
+    "descriptionExperiance2": "I'm working as a SQL developer in assurance sector. I'm in charge of the development of scripts, intended to process and analyze data.",
+    "titleExperiance3": "Full-Stack Developer",
+    "descriptionExperiance3": "I'm now a full-stack developer looking for a job, included freelance job. My stack includes React, Next.js, TypeScript, Angular, Express (Node.JS). I'm open to full-time opportunities."
+  },
+  "Contact": {
+    "title": "Contact Me",
+    "sentence1": "Please contact me directly at",
+    "sentence2": "or through this form.",
+    "placeholderEmail": "Your email",
+    "placeholderMessage": "Your message",
+    "button": "Submit"
+  },
   "Footer": {
-    "copyright": "© 2024 ARABA Portfolio"
+    "paragraph1": "© 2024 Mohammed ARABA Portfolio"
   }
 }

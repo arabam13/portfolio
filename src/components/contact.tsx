@@ -4,11 +4,13 @@ import { sendEmail } from "@/actions/sendEmail";
 import SubmitBtn from "@/components/submit-btn";
 import { useSectionInView } from "@/lib/hooks";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 import toast from "react-hot-toast";
 import SectionHeading from "./section-heading";
 
 export default function Contact() {
     const { ref } = useSectionInView("contact");
+    const t = useTranslations("Contact");
 
     return (
     <motion.section
@@ -28,14 +30,14 @@ export default function Contact() {
         once: true,
         }}
     >
-        <SectionHeading>Contact me</SectionHeading>
+        <SectionHeading>{t('title')}</SectionHeading>
 
         <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Please contact me directly at{" "}
+        {t('sentence1')}{" "}
         <a className="underline" href="mailto:araba.mohamed@gmail.com">
             araba.mohamed@gmail.com
         </a>{" "}
-        or through this form.
+        {t('sentence2')}
         </p>
 
         <form
@@ -57,12 +59,12 @@ export default function Contact() {
             type="email"
             required
             maxLength={500}
-            placeholder="Your email"
+            placeholder={t('placeholderEmail')}
         />
         <textarea
             className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
             name="message"
-            placeholder="Your message"
+            placeholder={t('placeholderMessage')}
             required
             maxLength={5000}
         />
