@@ -2,8 +2,27 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import angularIcon from "/public/angular.png";
+import apiRestIcon from "/public/api-rest.png";
+import awsIcon from "/public/aws.jpg";
 import bookStoreImg from "/public/bookStore.jpg";
+import expressIcon from "/public/express.png";
+import framerMotionIcon from "/public/framer-motion.png";
+import gitIcon from "/public/git.png";
+import javascrtipIcon from "/public/javascript.png";
+import mongodbIcon from "/public/mongodb.png";
+import nexjsIcon from "/public/nextjs.png";
+import nodejsIcon from "/public/nodejs.jpg";
+import postgresqlIcon from "/public/postgresql.png";
+import prismaIcon from "/public/prisma.jpg";
+import reactIcon from "/public/react.png";
 import realEstateAgencyImg from "/public/realEstateAgency.jpg";
+import reduxIcon from "/public/redux.png";
+import rxjsIcon from "/public/rxjs.png";
+import sqlIcon from "/public/sql.png";
+import tailwindIcon from "/public/tailwind.png";
+import typescriptIcon from "/public/typescript.png";
+import zustandIcon from "/public/zustand.png";
 
 export const links = [
   {
@@ -61,10 +80,8 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "realEstateAgency",
-    description:
-      // "Ce site est un clone d'une agence immobilière. Il est responsive et a été développé avec React et TypeScript. Il utilise le Context API pour gérer l'état global. Les tests ont été écrits avec React Testing Library. Le site est déployé sur Vercel.",
-      "This site is a clone of a real estate agency. It is responsive and was developed with React and TypeScript. It uses the Context API to manage global state. Some unit tests were written with Vitest and React Testing Library. The site is deployed on Vercel.",
+    titleProject1: "",
+    descriptionProject1: "",
     tags: [
       "React",
       "Typescript",
@@ -78,10 +95,8 @@ export const projectsData = [
     linkUrl: "https://react-kasa-typescript.vercel.app/",
   },
   {
-    title: "bookStore",
-    description:
-      // "Ce site représente une librairie de livres. Il est responsive et a été développé avec React et Node.js. L'utilisateur peut s'incrire et se connecter, créer une fiche d'unlivre, la modifier et la supprimer. Il peut également attribuer une note à un livre. Le site est déployé sur Amazon Web Service.",
-      "This site represents a book store. It is responsive and was developed with React and Express (Node.JS). The user can sign up and log in, create a book card, update and delete it. He can also rate a book. The site is deployed on Amazon Web Service.",
+    titleProject2: "",
+    descriptionProject2: "",
     tags: ["React", "Javascript", "Node.JS", "Express", "CI/CD", "AWS"],
     imageUrl: bookStoreImg,
     linkUrl: "https://book-store-aws.fr/",
@@ -89,24 +104,24 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Context API",
-  "Redux",
-  "Zustand",
-  "Angular",
-  "RxJS",
-  "Node.js",
-  "Express",
-  "Git",
-  "Tailwind",
-  "Framer Motion",
-  "Prisma",
-  "SQL",
-  "API REST",
-  "PostgreSQL",
-  "MongoDB",
-  "AWS",
+  { title: "Javascript", icon: javascrtipIcon },
+  { title: "TypeScript", icon: typescriptIcon },
+  { title: "React", icon: reactIcon },
+  { title: "Next.JS", icon: nexjsIcon },
+  { title: "Context API", icon: reactIcon },
+  { title: "Redux", icon: reduxIcon },
+  { title: "Zustand", icon: zustandIcon },
+  { title: "Angular", icon: angularIcon },
+  { title: "RxJS", icon: rxjsIcon },
+  { title: "Node.JS", icon: nodejsIcon },
+  { title: "Express.JS", icon: expressIcon },
+  { title: "Git", icon: gitIcon },
+  { title: "Tailwind", icon: tailwindIcon },
+  { title: "Framer Motion", icon: framerMotionIcon },
+  { title: "Prisma", icon: prismaIcon },
+  { title: "SQL", icon: sqlIcon },
+  { title: "API REST", icon: apiRestIcon },
+  { title: "PostgreSQL", icon: postgresqlIcon },
+  { title: "MongoDB", icon: mongodbIcon },
+  { title: "AWS", icon: awsIcon },
 ] as const;

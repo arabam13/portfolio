@@ -14,7 +14,17 @@
   },
   "About": {
     "title": "About Me",
-    "paragraph": "After graduating with a degree in Statistic and Business Intelligence, and working in the data analysis field, I decided to pursue my passion for IT programming. I've enrolled in a WEB development program and learned full-stack WEB development. My favorite part of programming is the problem-solving aspect. I love the feeling of finally figuring out a solution to a problem. My core stack is React, Next.JS, Angular, Node.JS, MongoDB, and PostgreSQL. I am also familiar with TypeScript, Prisma, and Reactive Programming (Rxjs library of Angular). I am always looking to learn new technologies. I am currently looking for a full-time position as a software developer."
+    "paragraph": "After graduating with a degree in Statistic and Business Intelligence, and working in the data analysis field, I decided to pursue my passion for IT programming. I've enrolled in a WEB development program and learned Full-Stack WEB development. My favorite part of programming is the problem-solving aspect. I love the feeling of finally figuring out a solution to a problem. I am currently looking for a full-time position as a software developer."
+  },
+  "Skills": {
+    "title": "My Skills"
+  },
+  "Projects": {
+    "title": "My projects",
+    "titleProject1": "Real Estate Agency",
+    "descriptionProject1": "This site is a clone of a real estate agency. It is responsive and was developed with React and TypeScript. It uses the Context API to manage global state. Some unit tests were written with Vitest and React Testing Library. The site is deployed on Vercel.",
+    "titleProject2": "Book Store",
+    "descriptionProject2": "This site represents a book store. It is responsive and was developed with React and Express (Node.JS). The user can sign up and log in, create a book card, update and delete it. He can also rate a book. The site is deployed on Amazon Web Service."
   },
   "Footer": {
     "copyright": "© 2024 ARABA Portfolio"
