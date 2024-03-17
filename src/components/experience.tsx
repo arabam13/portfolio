@@ -18,7 +18,7 @@ const Experience = () =>{
             <SectionHeading>{t('title')}</SectionHeading>
             <VerticalTimeline lineColor="">
                 {experiencesData.map((item, index) => (
-                    <React.Fragment key={index}>
+                    <React.Fragment key={item.location+index}>
                         <VerticalTimelineElement
                             contentStyle={{
                                 background:

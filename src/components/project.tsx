@@ -40,7 +40,7 @@ const Project = (project: ProjectProps) => {
                 {project.tags.map((tag, index) => (
                 <li
                     className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
-                    key={index}
+                    key={tag+index}
                 >
                     {tag}
                 </li>

@@ -16,7 +16,7 @@ const Projects = () =>  {
         <SectionHeading>{t('title')}</SectionHeading>
         <div>
         {projectsData.map((project, index) => (
-            <React.Fragment key={index}>
+            <React.Fragment key={t(`titleProject${index+1}`)+index}>
             <Project {...project} index={index+1}/>
             </React.Fragment>
         ))}
