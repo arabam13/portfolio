@@ -11,7 +11,7 @@ return (
         className="fixed bottom-5 right-5 bg-white w-[3rem] h-[3rem] bg-opacity-80 backdrop-blur-[0.5rem] border-2 border-gray border-opacity-40 shadow-2xl rounded-full flex items-center justify-center hover:scale-[1.15] active:scale-105 transition-all dark:bg-gray-950"
         onClick={toggleTheme}
     >
-        {theme === "light" ? <BsSun /> : <BsMoon />}
+        {theme === "light" ? <BsSun aria-label="button of switching theme"/> : <BsMoon aria-label="button of switching theme"/>}
     </button>
 );
 }

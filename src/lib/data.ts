@@ -13,6 +13,7 @@ import mongodbIcon from "/public/mongodb.png";
 import nexjsIcon from "/public/nextjs.png";
 import nodejsIcon from "/public/nodejs.jpg";
 import postgresqlIcon from "/public/postgresql.png";
+import postsBlogImg from "/public/postsBlogImg.png";
 import prismaIcon from "/public/prisma.jpg";
 import reactIcon from "/public/react.png";
 import realEstateAgencyImg from "/public/realEstateAgency.jpg";
@@ -92,9 +93,33 @@ export const projectsData = [
   {
     titleProject2: "",
     descriptionProject2: "",
-    tags: ["React", "Javascript", "Node.JS", "Express", "CI/CD", "AWS"],
+    tags: [
+      "React",
+      "Javascript",
+      "Node.JS",
+      "Express",
+      "Docker",
+      "CI/CD",
+      "AWS",
+    ],
     imageUrl: bookStoreImg,
     linkUrl: "https://book-store-aws.fr/",
+  },
+  {
+    titleProject3: "",
+    descriptionProject3: "",
+    tags: [
+      "Angular",
+      "TypeScript",
+      "Material Angular",
+      "Node.JS",
+      "Express",
+      "Docker",
+      "CI/CD",
+      "AWS",
+    ],
+    imageUrl: postsBlogImg,
+    linkUrl: "https://posts-blog-aws.top/",
   },
 ] as const;
 

@@ -3,7 +3,7 @@
 import { useActiveSectionContext } from '@/context/active-section-context';
 import { useSectionInView } from '@/lib/hooks';
 import { motion } from 'framer-motion';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
@@ -14,6 +14,7 @@ const Intro = () => {
     const { ref } = useSectionInView('home', 0.5);
     const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
     const t = useTranslations('Intro');
+    const lang = useLocale();
 
     return (
     <section
@@ -74,8 +75,9 @@ const Intro = () => {
 
         <a
             className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-            href="/CV.pdf"
+            href={lang === 'en' ? "/CV.pdf" : "/CV-FR.pdf"}
             target="_blank"
+            rel="noopener noreferrer"
         >
             {t('resume')}{' '}
             <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
@@ -85,16 +87,18 @@ const Intro = () => {
             className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
             href="https://www.linkedin.com/in/mohamed-araba-450708ab/"
             target="_blank"
+            rel="noopener noreferrer"
         >
-            <BsLinkedin />
+            <BsLinkedin aria-label="Link towrds Linkedin"/>
         </a>
 
         <a
             className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
             href="https://github.com/arabam13/"
             target="_blank"
+            rel="noopener noreferrer"
         >
-            <FaGithubSquare />
+            <FaGithubSquare aria-label="Link towrds Github"/>
         </a>
         </motion.div>
     </section>

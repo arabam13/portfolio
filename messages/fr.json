@@ -8,7 +8,7 @@
     "contact": "Contact"
   },
   "Intro": {
-    "paragraph": "Bonjour, c'est Mohammed. Je suis développeur Full-Stack. J'ai une passion pour l'elaboration des sites et applications WEB. Mes technologies favorites sont React (Next.JS) / Angular / Node.JS (Express).",
+    "paragraph": "Bonjour, c'est Mohammed. Je suis développeur Full-Stack. J'ai une passion pour l'élaboration des sites et applications WEB. Mes technologies favorites sont React (Next.JS) / Angular / Node.JS (Express).",
     "contact": "Me contacter",
     "resume": "Télécharger mon CV"
   },
@@ -22,9 +22,11 @@
   "Projects": {
     "title": "Mes projets",
     "titleProject1": "Agence immobilière",
-    "descriptionProject1": "Ce site est un clone d'une agence immobilière. Il est responsive et a été développé avec React et TypeScript. Il utilise le Context API pour gérer l'état global. Les tests ont été écrits avec React Testing Library. Le site est déployé sur Vercel.",
-    "titleProject2": "Entrepôt de livres",
-    "descriptionProject2": "Ce site représente une librairie de livres. Il est responsive et a été développé avec React et Node.js. L'utilisateur peut s'incrire et se connecter, créer une fiche d'unlivre, la modifier et la supprimer. Il peut également attribuer une note à un livre. Le site est déployé sur Amazon Web Service."
+    "descriptionProject1": "Ce site est un clone d'une agence immobilière. Il est responsive et a été développé avec React et TypeScript. Il utilise le Context API pour gérer l'état global de l'application. certains tests unitaires ont été écrits avec Vitest et React Testing Library. Le site est déployé sur Vercel.",
+    "titleProject2": "Entrepôt des livres",
+    "descriptionProject2": "Ce site représente une librairie de livres. Il est responsive et a été développé avec React et Node.js. L'utilisateur peut s'inscrire et se connecter, créer une fiche d'un livre, la modifier et la supprimer. Il peut également attribuer une note à un livre. Le site est déployé sur Amazon Web Service.",
+    "titleProject3": "Blog de posts",
+    "descriptionProject3": "Ce site est un blog de posts. Il est responsive et a été développé avec Angular et Node.js. L'utilisateur peut s'inscrire et se connecter, créer un post, le modifier et le supprimer (ces deux dernières actions ne sont réalisable que par le créateur du post). Le site est déployé sur Amazon Web Service."
   },
   "Experiance": {
     "title": "mon Expérience",
@@ -33,7 +35,7 @@
     "titleExperiance2": "développeur SQL",
     "descriptionExperiance2": "Je travaille actuellement en tant que développeur SQL dans le secteur de l'assurance maladie. Je suis en charge du développement de scripts, destinés à traiter et analyser des données.",
     "titleExperiance3": "développeur Full-Stack ",
-    "descriptionExperiance3": "Je suis maintenant un développeur Full-Stack à la recherche d'un emploi, y compris un emploi en freelance. Mes technologies favorites sont React, Next.js, TypeScript, Angular, Express (Node.JS). Je suis ouvert à des opportunités à temps plein."
+    "descriptionExperiance3": "Je suis maintenant un développeur Full-Stack à la recherche d'un emploi dans ce domaine, y compris en freelance. Mes technologies favorites sont React, Next.JS, TypeScript, Angular, Express (Node.JS). Je suis ouvert à des opportunités à temps plein."
   },
   "Contact": {
     "title": "Me contacter",

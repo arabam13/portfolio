@@ -46,7 +46,7 @@ return (
           }}
           custom={index}
         >
-          <Image src={icon} alt={title} width={25} height={25} className='rounded-lg aspect-square' />
+          <Image src={icon} alt="" width={25} height={25} className='rounded-lg aspect-square' />
           <p className="pt-1">{title}</p>
         </motion.li>
       ))}
