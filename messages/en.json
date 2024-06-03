@@ -8,7 +8,7 @@
     "contact": "Contact"
   },
   "Intro": {
-    "paragraph": "Hello, I'm Mohammed. I'm a full-stack developer. I enjoy building sites & apps. My favorites stack are React (Next.JS) / Angular / Node.JS (Express).",
+    "paragraph": "Hello, I'm Mohammed. I'm a full-stack developer. I enjoy building sites & apps. My favorites stack are React | Angular | Node.JS (Express).",
     "contact": "Contact me here",
     "resume": "Download CV"
   },
@@ -23,10 +23,8 @@
     "title": "My projects",
     "titleProject1": "Real Estate Agency",
     "descriptionProject1": "This site is a clone of a real estate agency. It is responsive and was developed with React and TypeScript. It uses the Context API to manage global state of the application. Some unit tests were written with Vitest and React Testing Library. The site is deployed on Vercel.",
-    "titleProject2": "Book Store",
-    "descriptionProject2": "This site represents a book store. It is responsive and was developed with React and Express (Node.JS). The user can sign up and log in, create a book card, update and delete it. He can also rate a book. The site is deployed on Amazon Web Service.",
-    "titleProject3": "Posts Blog",
-    "descriptionProject3": "This site is a blog of posts. It is responsive and was developed with Angular and Node.js. The user can sign up and log in, create a post, update and delete it (these two last actions are only possible for the creator of the post). The site is deployed on Amazon Web Service."
+    "titleProject2": "Posts Blog",
+    "descriptionProject2": "This site is a blog of posts. It is responsive and was developed with Angular and Node.js. The user can sign up and log in, create a post, update and delete it (these two last actions are only possible for the creator of the post). The site is deployed on Amazon Web Service."
   },
   "Experiance": {
     "title": "My Experience",

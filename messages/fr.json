@@ -8,7 +8,7 @@
     "contact": "Contact"
   },
   "Intro": {
-    "paragraph": "Bonjour, c'est Mohammed. Je suis développeur Full-Stack. J'ai une passion pour l'élaboration des sites et applications WEB. Mes technologies favorites sont React (Next.JS) / Angular / Node.JS (Express).",
+    "paragraph": "Bonjour, c'est Mohammed. Je suis développeur Full-Stack. J'ai une passion pour l'élaboration des sites et applications WEB. Mes technologies favorites sont React | Angular | Node.JS (Express).",
     "contact": "Me contacter",
     "resume": "Télécharger mon CV"
   },
@@ -23,10 +23,8 @@
     "title": "Mes projets",
     "titleProject1": "Agence immobilière",
     "descriptionProject1": "Ce site est un clone d'une agence immobilière. Il est responsive et a été développé avec React et TypeScript. Il utilise le Context API pour gérer l'état global de l'application. certains tests unitaires ont été écrits avec Vitest et React Testing Library. Le site est déployé sur Vercel.",
-    "titleProject2": "Entrepôt des livres",
-    "descriptionProject2": "Ce site représente une librairie de livres. Il est responsive et a été développé avec React et Node.js. L'utilisateur peut s'inscrire et se connecter, créer une fiche d'un livre, la modifier et la supprimer. Il peut également attribuer une note à un livre. Le site est déployé sur Amazon Web Service.",
-    "titleProject3": "Blog de posts",
-    "descriptionProject3": "Ce site est un blog de posts. Il est responsive et a été développé avec Angular et Node.js. L'utilisateur peut s'inscrire et se connecter, créer un post, le modifier et le supprimer (ces deux dernières actions ne sont réalisable que par le créateur du post). Le site est déployé sur Amazon Web Service."
+    "titleProject2": "Blog de posts",
+    "descriptionProject2": "Ce site est un blog de posts. Il est responsive et a été développé avec Angular et Node.js. L'utilisateur peut s'inscrire et se connecter, créer un post, le modifier et le supprimer (ces deux dernières actions ne sont réalisable que par le créateur du post). Le site est déployé sur Amazon Web Service."
   },
   "Experiance": {
     "title": "mon Expérience",

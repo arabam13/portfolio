@@ -5,7 +5,6 @@ import { LuGraduationCap } from "react-icons/lu";
 import typescriptIcon from "/public/Typescript.png";
 import angularIcon from "/public/angular.png";
 import awsIcon from "/public/aws.jpg";
-import bookStoreImg from "/public/bookStore.jpg";
 import expressIcon from "/public/express.png";
 import framerMotionIcon from "/public/framer-motion.png";
 import gitIcon from "/public/git.png";
@@ -18,6 +17,7 @@ import postsBlogImg from "/public/postsBlogImg.png";
 import prismaIcon from "/public/prisma.jpg";
 import reactIcon from "/public/react.png";
 import realEstateAgencyImg from "/public/realEstateAgency.jpg";
+import rxjs from "/public/rxjs.png";
 import sqlIcon from "/public/sql.png";
 import tailwindIcon from "/public/tailwind.png";
 
@@ -94,21 +94,6 @@ export const projectsData = [
     titleProject2: "",
     descriptionProject2: "",
     tags: [
-      "React",
-      "Javascript",
-      "Node.JS",
-      "Express",
-      "Docker",
-      "CI/CD",
-      "AWS",
-    ],
-    imageUrl: bookStoreImg,
-    linkUrl: "https://book-store-aws.fr/",
-  },
-  {
-    titleProject3: "",
-    descriptionProject3: "",
-    tags: [
       "Angular",
       "TypeScript",
       "Material Angular",
@@ -128,8 +113,8 @@ export const skillsData = [
   { title: "TypeScript", icon: typescriptIcon },
   { title: "React", icon: reactIcon },
   { title: "Next.JS", icon: nexjsIcon },
-  { title: "Context API", icon: reactIcon },
   { title: "Angular", icon: angularIcon },
+  { title: "RxJS", icon: rxjs },
   { title: "Node.JS", icon: nodejsIcon },
   { title: "Express.JS", icon: expressIcon },
   { title: "Git", icon: gitIcon },

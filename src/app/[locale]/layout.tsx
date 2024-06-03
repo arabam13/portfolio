@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
     title: "Mohammed ARABA",
-    description: "Mohammed ARABA is a full-stack developer specialized in ReactJS (NextJS) | Angular | NodeJS (ExpressJS)",
+    description: "Mohammed ARABA is a full-stack developer specialized in Angular | NodeJS (ExpressJS)",
   };
 
 interface RootLayoutProps {
