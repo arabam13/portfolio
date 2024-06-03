@@ -2,7 +2,6 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import typescriptIcon from "/public/Typescript.png";
 import angularIcon from "/public/angular.png";
 import awsIcon from "/public/aws.jpg";
 import expressIcon from "/public/express.png";
@@ -17,9 +16,10 @@ import postsBlogImg from "/public/postsBlogImg.png";
 import prismaIcon from "/public/prisma.jpg";
 import reactIcon from "/public/react.png";
 import realEstateAgencyImg from "/public/realEstateAgency.jpg";
-import rxjs from "/public/rxjs.png";
+import rxjs from "/public/RxJS.png";
 import sqlIcon from "/public/sql.png";
 import tailwindIcon from "/public/tailwind.png";
+import typescriptIcon from "/public/Typescript.png";
 
 export const links = [
   {
