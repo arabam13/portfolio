@@ -31,9 +31,9 @@
   "Experiance": {
     "title": "My Experience",
     "titleExperiance1": "Graduated Master Degree",
-    "descriptionExperiance1": "I graduated in statistics and business intelligence at Paul SABATIER University. I found a job as an IT corresponding, and then worked as statistician in assurance sector.",
+    "descriptionExperiance1": "I graduated in statistics and business intelligence at Paul SABATIER University. I found a job as an IT corresponding, and then worked as statistician in medicare sector.",
     "titleExperiance2": "SQL Developer",
-    "descriptionExperiance2": "I'm working as a SQL developer in assurance sector. I'm in charge of the development of scripts, intended to process and analyze data.",
+    "descriptionExperiance2": "I'm working as a SQL developer in medicare sector. I'm in charge of the development of scripts, intended to process and analyze data.",
     "titleExperiance3": "Full-Stack Developer",
     "descriptionExperiance3": "I'm now a full-stack developer looking for a job, included freelance job. My stack includes React, Next.js, TypeScript, Angular, Express (Node.JS). I'm open to full-time opportunities."
   },
