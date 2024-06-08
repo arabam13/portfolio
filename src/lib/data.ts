@@ -17,6 +17,7 @@ import prismaIcon from "/public/prisma.jpg";
 import reactIcon from "/public/react.png";
 import realEstateAgencyImg from "/public/realEstateAgency.jpg";
 import rxjs from "/public/RxJS.png";
+import shopProductImg from "/public/shopProduct.png";
 import sqlIcon from "/public/sql.png";
 import tailwindIcon from "/public/tailwind.png";
 import typescriptIcon from "/public/Typescript.png";
@@ -105,6 +106,21 @@ export const projectsData = [
     ],
     imageUrl: postsBlogImg,
     linkUrl: "https://posts-blog-aws.top/",
+  },
+  {
+    titleProject3: "",
+    descriptionProject3: "",
+    tags: [
+      "Angular",
+      "TypeScript",
+      "Facade Pattern",
+      "PrimeNG",
+      "Node.JS",
+      "Express",
+      "PostgreSQL",
+    ],
+    imageUrl: shopProductImg,
+    linkUrl: "https://alten-shop-products-postgres.onrender.com/",
   },
 ] as const;
 

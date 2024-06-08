@@ -8,7 +8,7 @@
     "contact": "Contact"
   },
   "Intro": {
-    "paragraph": "Hello, I'm Mohammed. I'm a full-stack developer. I enjoy building sites & apps. My favorites stack are React | Angular | Node.JS (Express).",
+    "paragraph": "Hello, I'm Mohammed. I'm a full-stack developer. I enjoy building sites & apps. My favorites stack are React | Angular | Node.JS",
     "contact": "Contact me here",
     "resume": "Download CV"
   },
@@ -24,7 +24,9 @@
     "titleProject1": "Real Estate Agency",
     "descriptionProject1": "This site is a clone of a real estate agency. It is responsive and was developed with React and TypeScript. It uses the Context API to manage global state of the application. Some unit tests were written with Vitest and React Testing Library. The site is deployed on Vercel.",
     "titleProject2": "Posts Blog",
-    "descriptionProject2": "This site is a blog of posts. It is responsive and was developed with Angular and Node.js. The user can sign up and log in, create a post, update and delete it (these two last actions are only possible for the creator of the post). The site is deployed on Amazon Web Service."
+    "descriptionProject2": "This site is a blog of posts. It is responsive and was developed with Angular and Node.js. The user can sign up and log in, create a post, update and delete it (these two last actions are only possible for the creator of the post). The site is deployed on Amazon Web Service.",
+    "titleProject3": "Products Shop",
+    "descriptionProject3": "This site is a shop of products. It was developed with Angular and Express (Node JS). We can visualise and search products in Products tab. We can create a product, update and delete it, in Admin tab. The site is deployed on Render.com."
   },
   "Experiance": {
     "title": "My Experience",
