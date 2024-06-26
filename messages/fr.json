@@ -26,7 +26,7 @@
     "titleProject2": "Blog de posts",
     "descriptionProject2": "Ce site est un blog de posts. Il est responsive et a été développé avec Angular et Node.js. L'utilisateur peut s'inscrire et se connecter, créer un post, le modifier et le supprimer (ces deux dernières actions ne sont réalisable que par le créateur du post). Le site est déployé sur Amazon Web Service.",
     "titleProject3": "Magasin de produits",
-    "descriptionProject3": "Ce site est un magasin de produits. Il a été développé avec Angular et Express (Node JS). Nous pouvons visualiser et rechercher des produits dans l'onglet Produits. Nous pouvons créer un produit, le mettre à jour et le supprimer, dans l'onglet Admin. Le site est déployé sur Render.com."
+    "descriptionProject3": "Ce site est un magasin de produits. Il a été développé avec Angular et Express (Node JS). Nous pouvons visualiser et rechercher des produits dans l'onglet Produits. Nous pouvons créer un produit, le mettre à jour et le supprimer, dans l'onglet Admin. Le Backend est déployé sur Render.com, & le Frontend sur Vercel."
   },
   "Experiance": {
     "title": "mon Expérience",
