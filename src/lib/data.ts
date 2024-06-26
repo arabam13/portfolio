@@ -120,7 +120,7 @@ export const projectsData = [
       "PostgreSQL",
     ],
     imageUrl: shopProductImg,
-    linkUrl: "https://alten-shop-products-postgres.onrender.com/",
+    linkUrl: "https://shop-products-postgresql-front.vercel.app/",
   },
 ] as const;
 
