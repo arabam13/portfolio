@@ -15,7 +15,7 @@ import nexjsIcon from "/public/nextjs.png";
 import nodejsIcon from "/public/nodejs.jpg";
 import postgresqlIcon from "/public/postgresql.png";
 import postsBlogImg from "/public/postsBlogImg.png";
-import quizappImj from "/public/quizappImj.png";
+import quizappImj from "/public/quizzappImj.png";
 import reactIcon from "/public/react.png";
 import realEstateAgencyImg from "/public/realEstateAgency.jpg";
 import rxjs from "/public/RxJS.png";
