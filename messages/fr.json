@@ -8,7 +8,7 @@
     "contact": "Contact"
   },
   "Intro": {
-    "paragraph": "Bonjour, c'est Mohammed. Je suis développeur Full-Stack. J'ai une passion pour l'élaboration des sites et applications WEB. Mes technologies favorites sont React | Angular | Node.JS",
+    "paragraph": "Bonjour, c'est Mohammed. Je suis développeur Full-Stack. J'ai une passion pour l'élaboration des sites et applications WEB. Mes technologies favorites sont Javascript (Framework JS) et Java (Spring).",
     "contact": "Me contacter",
     "resume": "Télécharger mon CV"
   },
@@ -27,7 +27,7 @@
     "descriptionProject2": "Ce site est un blog de posts. Il est responsive et a été développé avec Angular et Node.js. L'utilisateur peut s'inscrire et se connecter, créer un post, le modifier et le supprimer (ces deux dernières actions ne sont réalisable que par le créateur du post). Le site est déployé sur Amazon Web Service.",
     "titleProject3": "Magasin de produits",
     "descriptionProject3": "Ce site est un magasin de produits. Il a été développé avec Angular et Express (Node JS). Nous pouvons visualiser et rechercher des produits dans l'onglet Produits. Nous pouvons créer un produit, le mettre à jour et le supprimer, dans l'onglet Admin. Le Backend est déployé sur Render.com, & le Frontend sur Vercel.",
-    "titleProject4": "Gestion des données cliniqiues",
+    "titleProject4": "Gestion des données cliniques",
     "descriptionProject4": "Ce site est une application de gestion des données cliniques. Il a été développé avec ReactJS et Spring Boot. L'utilisateur peut créer et visualiser des infos liées aux patients. Il consulter et créer des données cliniqiues liées aux patients. Le Backend & le Frontend sont déployés sur le AWS via un mechanisme DOCKER | CI/CD.",
     "titleProject5": "Quizz App",
     "descriptionProject5": "L’application est un quizz, doté d’une série de questions. Pour chaque question, on a plusieurs propositions de réponse, dont on ne peut sélectionner qu’une seule réponse. A l’issue, un résultat est affiché, en fonction des éléments de réponse, et invite l’utilisateur à refaire le quizz. L’application est déployée sur la plateforme d’hébergement Vercel."
