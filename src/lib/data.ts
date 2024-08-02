@@ -4,16 +4,18 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import angularIcon from "/public/angular.png";
 import awsIcon from "/public/aws.jpg";
+import clinicalappImg from "/public/clinicalappImg.png";
 import expressIcon from "/public/express.png";
 import framerMotionIcon from "/public/framer-motion.png";
 import gitIcon from "/public/git.png";
+import javaIcon from "/public/java.png";
 import javascrtipIcon from "/public/javaScript.png";
 import mongodbIcon from "/public/mongodb.png";
 import nexjsIcon from "/public/nextjs.png";
 import nodejsIcon from "/public/nodejs.jpg";
 import postgresqlIcon from "/public/postgresql.png";
 import postsBlogImg from "/public/postsBlogImg.png";
-import prismaIcon from "/public/prisma.jpg";
+import quizappImj from "/public/quizappImj.png";
 import reactIcon from "/public/react.png";
 import realEstateAgencyImg from "/public/realEstateAgency.jpg";
 import rxjs from "/public/RxJS.png";
@@ -122,6 +124,20 @@ export const projectsData = [
     imageUrl: shopProductImg,
     linkUrl: "https://shop-products-postgresql-front.vercel.app/",
   },
+  {
+    titleProject4: "",
+    descriptionProject4: "",
+    tags: ["ReactJS", "TypeScript", "Spring", "JAVA", "PostgreSQL"],
+    imageUrl: clinicalappImg,
+    linkUrl: "http://54.211.242.156",
+  },
+  {
+    titleProject5: "",
+    descriptionProject5: "",
+    tags: ["VueJS"],
+    imageUrl: quizappImj,
+    linkUrl: "https://quiz-app-chi-gray.vercel.app/",
+  },
 ] as const;
 
 export const skillsData = [
@@ -136,7 +152,7 @@ export const skillsData = [
   { title: "Git", icon: gitIcon },
   { title: "Tailwind", icon: tailwindIcon },
   { title: "Framer Motion", icon: framerMotionIcon },
-  { title: "Prisma", icon: prismaIcon },
+  { title: "Java", icon: javaIcon },
   { title: "SQL", icon: sqlIcon },
   { title: "PostgreSQL", icon: postgresqlIcon },
   { title: "MongoDB", icon: mongodbIcon },

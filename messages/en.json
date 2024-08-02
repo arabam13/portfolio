@@ -26,7 +26,11 @@
     "titleProject2": "Posts Blog",
     "descriptionProject2": "This site is a blog of posts. It is responsive and was developed with Angular and Node.js. The user can sign up and log in, create a post, update and delete it (these two last actions are only possible for the creator of the post). The site is deployed on Amazon Web Service.",
     "titleProject3": "Products Shop",
-    "descriptionProject3": "This site is a shop of products. It was developed with Angular and Express (Node JS). We can visualise and search products in Products tab. We can create a product, update and delete it, in Admin tab. The Backend is deployed on Render.com, & the Frontend on Vercel."
+    "descriptionProject3": "This site is a shop of products. It was developed with Angular and Express (Node JS). We can visualise and search products in Products tab. We can create a product, update and delete it, in Admin tab. The Backend is deployed on Render.com, & the Frontend on Vercel.",
+    "titleProject4": "ClinicalDATA Management",
+    "descriptionProject4": "This site is a clinical data management application. It was developed with ReactJS and Spring Boot. The user can create and view patient-related info. He can consult and create clinical data related to patients. The Backend & Frontend are deployed on AWS via a DOCKER | CI/CD mechanism.",
+    "titleProject5": "Quizz App",
+    "descriptionProject5": "The application is a quiz, with a series of questions. For each question, we have several answer propositions, of which we can only select one answer. At the end, a result is displayed, based on the answer elements, and invites the user to redo the quiz. The application is deployed on Vercel hosting platform."
   },
   "Experiance": {
     "title": "My Experience",
